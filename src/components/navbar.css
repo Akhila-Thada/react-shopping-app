@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+
+.alert{
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    background-color: black;
+    color: rgb(189, 71, 90);
+    padding: 0.2rem;
+    font-family: "Winky Rough", sans-serif;
+}
+.navbar{
+    font-family: "Winky Rough", sans-serif;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0.5rem;   
+    align-items: center;
+    border-bottom: 1px solid rgb(219, 215, 215);
+}
+
+img{
+    padding: 0 0.1rem;
+}
+#navbar2 span{
+    color: gray;
+}
+#navbar2 a {
+    text-decoration: none;
+    color: gray;
+}
+#navbar2 a.active {
+    font-weight: bold;
+    color: black;
+  }
+  
+#navbar2{ 
+    font-size: 10px;
+    padding: 0.5rem;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.nav3{
+    display: none;
+}
+
+
+.heading h1{
+    font-family: "Winky Rough", sans-serif;
+    font-weight: 300;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.heading p{
+    font-family: "Winky Rough", sans-serif;
+    font-size: 12px;
+    padding: 0 1rem;
+    color: gray;
+    margin: 0 auto ;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:550px) {
+    .heading p{
+        width: 70%;
+        line-height: 2;
+        padding: 0 1.5rem;
+    }
+}
+
+
+
+
+
+
+@media (orientation:landscape) {
+    .navbar{
+        padding: 1.5rem;
+        font-size: 16px;
+    }
+    img{
+        padding-left: 0.5rem;
+    }
+    .hidden{
+        display: block;
+    }
+    #navbar2{
+        display: none;
+    }
+    #navbar3{
+        display: block;
+    }
+    #language{
+         display: flex;
+          align-items: center;
+    }
+    #menu-btn{
+        display: none;
+    }
+    .nav3{
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        color: black;
+    }
+    
+    .nav3 a {
+        text-decoration: none;
+        padding: 0 0.5rem;
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .heading h1{
+        font-size: 2rem;
+    }
+    .heading p{
+        font-size: 1rem;
+        margin-bottom: 2rem;
+
+    }
+    
+}

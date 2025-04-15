@@ -1,0 +1,153 @@
+.shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.product{
+    width: 45%;
+    justify-items: center;
+}
+
+  
+  .product:hover {
+    transform: translateY(-1rem);
+  }
+  
+ 
+  .image {
+    max-width: 100%;
+    height: 60%;
+    object-fit: contain;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 0.2rem;
+  }
+  
+  .product h6 {
+    font-size: 0.6rem;
+  }
+  
+  .product p,a{
+    font-size: 0.5rem;
+    color: #666;
+  }
+  
+  
+  
+ #heart:hover {
+    transform: scale(1.2);
+  }
+  
+
+  @media (max-width: 300px) {
+    .shop-container {
+      grid-template-columns: repeat(2, 1fr);
+      
+    }
+  }
+
+  .details{
+    display: flex;
+  }
+
+  @media (orientation:landscape) {
+    .product{
+      width: 30%;
+      justify-items: center;
+  }
+  }
+
+
+
+  .shop-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+    container-type: inline-size; /* Enable container queries */
+    width: 100%; /* or customize as needed */
+    margin: 0 auto;
+  }
+  
+  .product {
+    justify-items: center;
+    width: 45%; /* default width */
+    transition: transform 0.3s ease;
+  }
+  
+  .product:hover {
+    transform: translateY(-1rem);
+  }
+  
+  .image {
+    max-width: 100%;
+    height: 60%;
+    object-fit: contain;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 0.2rem;
+  }
+  
+  .product h6 {
+    font-size: 0.6rem;
+  }
+  
+  .product p,
+  .product a {
+    font-size: 0.5rem;
+    color: #666;
+  }
+  
+  #heart:hover {
+    transform: scale(1.2);
+  }
+  
+  .details {
+    display: flex;
+  }
+  
+  
+  @container (max-width: 200px) {
+    .product {
+      width: 100%;
+    }
+  }
+  
+  @container (min-width: 201px) and (max-width: 420px) {
+    .product {
+      width: 45%;
+
+    }
+
+  }
+  
+  @container (min-width: 421px) and (max-width: 580px) {
+    .product {
+      width: 30%;
+
+    }
+    .product p,
+  .product a {
+    font-size: 0.6rem;
+    color: #666;
+  }
+  .product h6 {
+    font-size: 0.7rem;
+  }
+
+    
+  }
+  @container (min-width: 581px) {
+    .product {
+      width: 22%;
+    }
+    .product p,
+  .product a {
+    font-size: 0.7rem;
+    color: #666;
+  }
+  .product h6 {
+    font-size: 0.8rem;
+  }
+  }
+  

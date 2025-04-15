@@ -1,0 +1,94 @@
+h5{
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+}
+p{
+    font-size: 0.6rem;
+    padding-bottom: 0.4rem;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+}
+#footer1{
+    padding: 1rem;
+}
+
+#email-container{
+    display: flex;
+}
+#email-container input {
+    width: 50%;
+    font-size: 0.6rem;
+    padding: 0.5rem;
+}
+#email-container button {
+    background-color: black;
+    color: gray;
+    font-size: 0.6rem;
+    margin: 0 0.2rem;
+    border: 1px solid gray;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    width: 35%;
+}
+.f-part {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white;
+}
+#footer2{
+    padding: 1rem;
+}
+  
+  .f-part img{
+    height: 2rem;
+    border-radius: 50%;
+    width: 2rem;
+    border: 1px solid white;
+    padding-left: 0.2rem;
+    margin-left: 0.5rem;
+  }
+
+  #pay img{
+    width: 95%;
+  }
+
+  @media (min-width: 600px) {
+    #footer1{
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+      border-bottom: 1px solid white;
+    }
+    .f-part {
+      border-bottom: none;
+    }
+    #footer2{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    h5{
+      font-size: 0.8rem;
+      padding: 0.5rem 0;
+  }
+  p{
+      font-size: 0.7rem;
+      padding-bottom: 0.4rem;
+  }
+  }
+  @media (min-width: 450px){
+    h5{
+      font-size: 0.8rem;
+      padding: 0.5rem 0;
+  }
+  p{
+      font-size: 0.7rem;
+      padding-bottom: 0.4rem;
+  }
+  }
+
+  .social-img{
+    height: 2rem;
+    width: auto;
+
+  }
