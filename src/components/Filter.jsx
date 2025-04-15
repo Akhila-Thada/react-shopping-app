@@ -55,7 +55,7 @@ const Filter = ({ onOpenAuth }) => {
                                     color: 'black',
                                     padding: '6px 10px',
                                     borderRadius: '4px',
-                                    appearance: 'none',
+                                    appearance: 'none',WebkitAppearance: 'none',
                                     MozAppearance: 'none'
                                 }}>
                                     <option value="all">All</option>
@@ -64,7 +64,18 @@ const Filter = ({ onOpenAuth }) => {
                             </div>
                             <div className="filter-group">
                                 <label>OCCASION</label><br />
-                                <select defaultValue="all">
+                                <select defaultValue="all"  style={{
+
+                                    border: 'none',
+                                    outline: 'none',
+                                    boxShadow: 'none',
+                                    color: 'black',
+                                    padding: '6px 10px',
+                                    borderRadius: '4px',
+                                    appearance: 'none',
+                         WebkitAppearance: 'none',
+                                    MozAppearance: 'none'
+                                }}>
                                     <option value="all">All</option>
                                     <option value="some">Some</option>
                                 </select>
@@ -79,7 +90,7 @@ const Filter = ({ onOpenAuth }) => {
                                     color: 'black',
                                     padding: '6px 10px',
                                     borderRadius: '4px',
-                                    appearance: 'none',
+                                    appearance: 'none',WebkitAppearance: 'none',
                                     MozAppearance: 'none'
                                 }}>
                                     <option value="all">All</option>
@@ -96,7 +107,7 @@ const Filter = ({ onOpenAuth }) => {
                                     color: 'black',
                                     padding: '6px 10px',
                                     borderRadius: '4px',
-                                    appearance: 'none',
+                                    appearance: 'none',WebkitAppearance: 'none',
                                     MozAppearance: 'none'
                                 }}>
                                     <option value="all">All</option>
@@ -113,7 +124,7 @@ const Filter = ({ onOpenAuth }) => {
                                     color: 'black',
                                     padding: '6px 10px',
                                     borderRadius: '4px',
-                                    appearance: 'none',
+                                    appearance: 'none',WebkitAppearance: 'none',
                                     MozAppearance: 'none'
                                 }}>
                                     <option value="all">All</option>
@@ -130,7 +141,7 @@ const Filter = ({ onOpenAuth }) => {
                                     color: 'black',
                                     padding: '6px 10px',
                                     borderRadius: '4px',
-                                    appearance: 'none',
+                                    appearance: 'none',WebkitAppearance: 'none',
                                     MozAppearance: 'none'
                                 }}>
                                     <option value="all">All</option>
@@ -147,7 +158,7 @@ const Filter = ({ onOpenAuth }) => {
                                     color: 'black',
                                     padding: '6px 10px',
                                     borderRadius: '4px',
-                                    appearance: 'none',
+                                    appearance: 'none',WebkitAppearance: 'none',
                                     MozAppearance: 'none'
                                 }}>
                                     <option value="all">All</option>
@@ -165,6 +176,7 @@ const Filter = ({ onOpenAuth }) => {
                                     padding: '6px 10px',
                                     borderRadius: '4px',
                                     appearance: 'none',
+                         WebkitAppearance: 'none',
                                     MozAppearance: 'none'
                                 }}>
                                     <option value="all">All</option>
