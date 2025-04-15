@@ -23,7 +23,7 @@ function App() {
       <Filter onOpenAuth={handleOpenAuth} />
       <FooterPage />
 
-      {/* Render Signup/Login Modal */}
+      
       {isAuthOpen && <SignupLogin onClose={handleCloseAuth} />}
     </>
   );
