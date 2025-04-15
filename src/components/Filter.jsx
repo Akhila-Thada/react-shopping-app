@@ -55,8 +55,8 @@ const Filter = ({ onOpenAuth }) => {
                                     color: 'black',
                                     padding: '6px 10px',
                                     borderRadius: '4px',
-                                    appearance: 'none',
-                                    MozAppearance: 'none'
+                                    appearance: 'none'
+                            
                                 }}>
                                     <option value="all">All</option>
                                     <option value="some">Some</option>
