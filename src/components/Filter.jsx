@@ -60,6 +60,13 @@ const Filter = ({ onOpenAuth }) => {
                                 </select>
                             </div>
                             <div className="filter-group">
+                                <label>OCCASION</label><br />
+                                <select defaultValue="all" >
+                                    <option value="all">All</option>
+                                    <option value="some">Some</option>
+                                </select>
+                            </div>
+                            <div className="filter-group">
                                 <label>WORK</label><br />
                                 <select defaultValue="all" >
                                     <option value="all">All</option>
