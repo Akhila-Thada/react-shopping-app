@@ -47,134 +47,56 @@ const Filter = ({ onOpenAuth }) => {
                         <div>
                             <div className="filter-group">
                                 <label htmlFor="ideal-for">IDEAL FOR</label><br />
-                                <select id="ideal-for" defaultValue="all" style={{
-
-                                    border: 'none',
-                                    outline: 'none',
-                                    boxShadow: 'none',
-                                    color: 'black',
-                                    padding: '6px 10px',
-                                    borderRadius: '4px',
-                                    appearance: 'none'
-                            
-                                }}>
+                                <select id="ideal-for" defaultValue="all" >
                                     <option value="all">All</option>
                                     <option value="some">Some</option>
                                 </select>
                             </div>
                             <div className="filter-group">
                                 <label>OCCASION</label><br />
-                                <select defaultValue="all"  style={{
-
-                                    border: 'none',
-                                    outline: 'none',
-                                    boxShadow: 'none',
-                                    color: 'black',
-                                      
-                                }}>
+                                <select defaultValue="all" >
                                     <option value="all">All</option>
                                     <option value="some">Some</option>
                                 </select>
                             </div>
                             <div className="filter-group">
                                 <label>WORK</label><br />
-                                <select defaultValue="all" style={{
-
-                                    border: 'none',
-                                    outline: 'none',
-                                    boxShadow: 'none',
-                                    color: 'black',
-                                    padding: '6px 10px',
-                                    borderRadius: '4px',
-                                    appearance: 'none',WebkitAppearance: 'none',
-                                    MozAppearance: 'none'
-                                }}>
+                                <select defaultValue="all" >
                                     <option value="all">All</option>
                                     <option value="some">Some</option>
                                 </select>
                             </div>
                             <div className="filter-group">
                                 <label>FABRIC</label><br />
-                                <select defaultValue="all" style={{
-
-                                    border: 'none',
-                                    outline: 'none',
-                                    boxShadow: 'none',
-                                    color: 'black',
-                                    padding: '6px 10px',
-                                    borderRadius: '4px',
-                                    appearance: 'none',WebkitAppearance: 'none',
-                                    MozAppearance: 'none'
-                                }}>
+                                <select defaultValue="all" >
                                     <option value="all">All</option>
                                     <option value="some">Some</option>
                                 </select>
                             </div>
                             <div className="filter-group">
                                 <label>SEGMENT</label><br />
-                                <select defaultValue="all" style={{
-
-                                    border: 'none',
-                                    outline: 'none',
-                                    boxShadow: 'none',
-                                    color: 'black',
-                                    padding: '6px 10px',
-                                    borderRadius: '4px',
-                                    appearance: 'none',WebkitAppearance: 'none',
-                                    MozAppearance: 'none'
-                                }}>
+                                <select defaultValue="all" >
                                     <option value="all">All</option>
                                     <option value="some">Some</option>
                                 </select>
                             </div>
                             <div className="filter-group">
                                 <label>SUITABLE FOR</label><br />
-                                <select defaultValue="all" style={{
-
-                                    border: 'none',
-                                    outline: 'none',
-                                    boxShadow: 'none',
-                                    color: 'black',
-                                    padding: '6px 10px',
-                                    borderRadius: '4px',
-                                    appearance: 'none',WebkitAppearance: 'none',
-                                    MozAppearance: 'none'
-                                }}>
+                                <select defaultValue="all" >
                                     <option value="all">All</option>
                                     <option value="some">Some</option>
                                 </select>
                             </div>
                             <div className="filter-group">
                                 <label>RAW MATERIALS</label><br />
-                                <select defaultValue="all" style={{
-
-                                    border: 'none',
-                                    outline: 'none',
-                                    boxShadow: 'none',
-                                    color: 'black',
-                                    padding: '6px 10px',
-                                    borderRadius: '4px',
-                                    appearance: 'none',WebkitAppearance: 'none',
-                                    MozAppearance: 'none'
-                                }}>
+                                <select defaultValue="all" >
                                     <option value="all">All</option>
                                     <option value="some">Some</option>
                                 </select>
                             </div>
                             <div className="filter-group">
                                 <label>PATTERN</label><br />
-                                <select defaultValue="all" style={{
-
-                                    border: 'none',
-                                    outline: 'none',
-                                    boxShadow: 'none',
-                                    color: 'black',
-                                    padding: '6px 10px',
-                                    borderRadius: '4px',
-                                    appearance: 'none',
-                         WebkitAppearance: 'none',
-                                    MozAppearance: 'none'
-                                }}>
+                                <select defaultValue="all" >
                                     <option value="all">All</option>
                                     <option value="some">Some</option>
                                 </select>
