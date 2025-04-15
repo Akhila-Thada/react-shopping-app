@@ -1,26 +1,4 @@
-/*import { useState } from 'react'
-import './App.css'
-import Navbar from './components/Navbar'
-import Filter from './components/Filter'
-import FooterPage from './components/FooterPage'
-import SignupLogin from './components/SignupLogin'
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <Navbar />
-      <Filter />
-      <FooterPage />
-
-    </>
-  )
-}
-
-export default App
-*/
 import { useState } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
