@@ -38,7 +38,7 @@ const Navbar = () => {
       <div id="navbar2">
         <a href="/" style={{
             fontWeight: currentPath === '/' ? 'bold' : 'normal',
-            color: currentPath === '/' ? 'rgb(189, 71, 90)' : '#000',
+            color:  '#000',
             textDecoration: 'none',
           }}>
           HOME
