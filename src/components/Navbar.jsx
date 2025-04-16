@@ -44,7 +44,7 @@ const Navbar = () => {
           HOME
         </a>
         <span> | </span>
-        <a href="/shop" style={{
+        <a href="/" style={{
             fontWeight: currentPath === '/shop' ? 'bold' : 'normal',
             color: '#000',
             textDecoration: 'none',
@@ -53,11 +53,31 @@ const Navbar = () => {
         </a>
       </div>
       <div className='nav3'>
-      <div><a href="/shop">SHOP</a></div>
-      <div><a href="/skills">SKILLS</a></div>
-      <div><a href="/stories">STORIES</a></div>
-     <div> <a href="/about">ABOUT</a></div>
-      <div><a href="/contact">CONTACT US</a></div>
+      <div><a href="/" style={{
+            fontWeight: currentPath === '/' ? 'bold' : 'normal',
+            color: '#000',
+            textDecoration: 'none',
+          }}>>SHOP</a></div>
+      <div><a href="/" style={{
+            fontWeight: currentPath === '/' ? 'bold' : 'normal',
+            color: '#000',
+            textDecoration: 'none',
+          }}>>SKILLS</a></div>
+      <div><a href="/" style={{
+            fontWeight: currentPath === '/' ? 'bold' : 'normal',
+            color: '#000',
+            textDecoration: 'none',
+          }}>>STORIES</a></div>
+     <div> <a href="/" style={{
+            fontWeight: currentPath === '/' ? 'bold' : 'normal',
+            color: '#000',
+            textDecoration: 'none',
+          }}>>ABOUT</a></div>
+      <div><a href="/" style={{
+            fontWeight: currentPath === '/' ? 'bold' : 'normal',
+            color: '#000',
+            textDecoration: 'none',
+          }}>>CONTACT US</a></div>
       </div>
 
 
