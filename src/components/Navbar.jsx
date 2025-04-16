@@ -53,31 +53,12 @@ const Navbar = () => {
         </a>
       </div>
       <div className='nav3'>
-      <div><a href="/" style={{
-            fontWeight: currentPath === '/' ? 'bold' : 'normal',
-            color: '#000',
-            textDecoration: 'none',
-          }}>>SHOP</a></div>
-      <div><a href="/" style={{
-            fontWeight: currentPath === '/' ? 'bold' : 'normal',
-            color: '#000',
-            textDecoration: 'none',
-          }}>>SKILLS</a></div>
-      <div><a href="/" style={{
-            fontWeight: currentPath === '/' ? 'bold' : 'normal',
-            color: '#000',
-            textDecoration: 'none',
-          }}>>STORIES</a></div>
-     <div> <a href="/" style={{
-            fontWeight: currentPath === '/' ? 'bold' : 'normal',
-            color: '#000',
-            textDecoration: 'none',
-          }}>>ABOUT</a></div>
-      <div><a href="/" style={{
-            fontWeight: currentPath === '/' ? 'bold' : 'normal',
-            color: '#000',
-            textDecoration: 'none',
-          }}>>CONTACT US</a></div>
+      <div><a href="/" >>HOME</a></div>
+      <div><a href="/" >>SHOP</a></div>
+      <div><a href="/">>SKILLS</a></div>
+      <div><a href="/" >>STORIES</a></div>
+     <div> <a href="/" }>>ABOUT</a></div>
+      <div><a href="/">>CONTACT US</a></div>
       </div>
 
 
