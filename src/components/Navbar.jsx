@@ -53,12 +53,12 @@ const Navbar = () => {
         </a>
       </div>
       <div className='nav3'>
-      <div><a href="/" >>HOME</a></div>
-      <div><a href="/" >>SHOP</a></div>
-      <div><a href="/">>SKILLS</a></div>
-      <div><a href="/" >>STORIES</a></div>
-     <div> <a href="/" }>>ABOUT</a></div>
-      <div><a href="/">>CONTACT US</a></div>
+      <div><a href="/" >HOME</a></div>
+      <div><a href="/" >SHOP</a></div>
+      <div><a href="/">SKILLS</a></div>
+      <div><a href="/" >STORIES</a></div>
+     <div> <a href="/" >ABOUT</a></div>
+      <div><a href="/">CONTACT US</a></div>
       </div>
 
 
